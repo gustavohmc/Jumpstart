@@ -29,3 +29,17 @@ h1{
     1px 1px 0 #000;
 
 }
+
+.jumbotron p{
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.image-container img{
+  width: 100%;
+  opacity: 0.7;
+}
