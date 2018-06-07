@@ -1,5 +1,11 @@
 $(document).ready(function(){
-  $('.your-class').slick({
-    setting-name: setting-value
+  $('.carousel').slick({
+    accessibility: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
   });
 });
